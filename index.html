@@ -9,59 +9,49 @@
 
     <!-- ====== 🔖 [META TAGS PAGE] ====== -->
     <!-- Titre -->
-    <!-- TODO Insérer le titre de la page (entre 50 et 60 caractères) -->
-    <title>Titre de la page</title>
+    <title>Memory Station – Journal d’une exploratrice du web</title>
     <!-- Meta Description -->
-    <!-- TODO Insérer une meta-description (entre 150 et 160 caractères) -->
-    <meta name="description" content="Descrition de la page" />
+    <meta
+      name="description"
+      content="Bienvenue à bord de la Memory Station, un blog personnel où je documente mon apprentissage du développement web avec style et curiosité."
+    />
     <!-- favicon.ico -->
-    <!-- TODO Lier les Favicons -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/img/icons/favicon.ico"
-    />
+    <link rel="icon" type="image/x-icon" href="./assets/img/icons/favicons/favicon.ico" />
     <!-- favicon.svg -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./assets/img/icons/favicon.svg"
-    />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/icons/favicons/favicon.svg" />
     <!-- favicon.png -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/img/icons/favicon32x32.png"
+      href="./assets/img/icons/favicons/favicon32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./assets/img/icons/favicon16x16.png"
+      href="./assets/img/icons/favicons/favicon16x16.png"
     />
     <!-- Apple-touch-icon.png -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./assets/img/icons/apple-touch-icon.png"
+      href="./assets/img/icons/favicons/apple-touch-icon.png"
     />
     <!-- Auteur -->
     <meta name="author" content="Jhauck67" />
 
     <!-- ====== 🔖 [OPENGRAPH META TAGS] ====== -->
-    <!-- TODO Remplir les balises OpenGraph -->
-    <meta
-      property="og:url"
-      content="https://jhauck67.github.io/Sandbox-Station/projects/Nom-du-Projet/Nom-du-Projet.html
-"
-    />
+    <meta property="og:url" content="https://jhauck67.github.io/Memory-Station/index.html" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Titre de la page" />
-    <meta property="og:description" content="Description de la page" />
+    <meta property="og:title" content="Memory Station – Journal d’une exploratrice du web" />
+    <meta
+      property="og:description"
+      content="Bienvenue à bord de la Memory Station, un blog personnel où je documente mon apprentissage du développement web avec style et curiosité."
+    />
     <meta
       property="og:image"
-      content="https://jhauck67.github.io/Sandbox-Station/assets/sketch/opengraph.png"
+      content="https://jhauck67.github.io/Memory-Station/assets/sketch/opengraph.png"
     />
 
     <!-- ====== 🎨 [FEUILLE DE STYLE CSS] ====== -->
@@ -76,20 +66,81 @@
   </head>
 
   <!-- ===== 📄 [BODY] : Début du site ====== -->
-  <!-- TODO Coder le site -->
-  <body
-    style="
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100dvh;
-    "
-  >
-    <nav></nav>
-    <header><h1>Le contenu arrivera bientôt</h1></header>
-    <main></main>
-    <footer></footer>
-    <!-- TODO Lier le script JS -->
-    <script src="./assets/scripts/index.js" defer></script>
+  <body>
+    <header>
+      <div class="title-container">
+        <h1>Memory Station</h1>
+        <p class="code-text">// LANCEMENT DU MODULE DE BAVARDAGE TECHNICO-EXISTENTIEL //</p>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="intro-text-container">
+          <h2>Ici commence la doc non-officielle de mon apprentissage</h2>
+          <p>
+            Bienvenue dans Memory Station, un journal de bord sans fard ni filtre, où je consigne
+            mes découvertes, mes galères et mes petites victoires dans l’univers du développement
+            web. Ce n’est pas un cours, ce n’est pas un tuto — c’est un carnet de route. Entre deux
+            lignes de code et trois crashs de cerveau, je documente ici ce que j’apprends, ce que je
+            teste, et ce que je finis par comprendre (parfois à la troisième lecture). Si tu aimes
+            les snippets, les hacks CSS, les workflows maison et les plongées dans la console, tu
+            devrais te sentir comme chez toi.
+          </p>
+          <p>Terminal prêt. On décolle.</p>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="log-gallery">
+          <h2>
+            Derniers flux de données
+            <span class="underscrore">_</span>
+          </h2>
+          <div class="cards-container">
+            <article class="card">
+              <img
+                src="./assets/img/image-bouvier.webp"
+                alt="un bouvier bernois avec un casque de gamer qui joue à Apex Legends avec ses pattes"
+                width="250"
+                height="250"
+                class="img"
+              />
+              <h3>Titre de l'article</h3>
+              <p class="legende code-text">01.01.0001 | Journal</p>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo velit unde et tempora
+                dignissimos voluptate delectus eos quisquam placeat dolorum, id nam voluptatum,
+                temporibus commodi!
+              </p>
+              <a href="#" class="button">Lire la suite ></a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <!-- Infos de contact -->
+        <div class="contact-info">
+          <p>
+            Contact:
+            <a href="mailto:votre-email@exemple.com" aria-label="Envoyer un email à Jennifer Hauck">
+              jenniferhauck2017@gmail.com
+            </a>
+          </p>
+        </div>
+        <!-- Mentions légales et crédits -->
+        <div class="copyright">
+          <p>
+            &copy;
+            <span id="current-year">2025</span>
+            Jhauck67 - Tous droits réservés
+          </p>
+          <p class="sandbox-credit">
+            Créé avec
+            <span class="accent">Sandbox-Station</span>
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

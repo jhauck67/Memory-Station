@@ -1,0 +1,10 @@
+.intro {
+  padding: 0 map-get($spacings, m);
+}
+.intro-text-container {
+  max-width: 1200px;
+  margin: map-get($spacings, xxl) auto;
+  padding: map-get($spacings, xxl) map-get($spacings, l);
+  border: 1px solid $primary;
+  box-shadow: $shadow-medium;
+}

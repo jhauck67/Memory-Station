@@ -1,21 +1,17 @@
 // ====== 🧬 [VARIABLES] : Variables fonts, couleurs, espacements, etc... ======
 
 // 🔠 Typographie :
-// TODO Insérer les variables "font"
-$font-title: "Inter", Arial, Helvetica, sans-serif;
-$font-text: "Roboto", "Segoe UI", sans-serif;
-$font-code: "Fira Mono", monospace;
+$font-title: 'Orbitron', fantasy;
+$font-text: 'IBM Plex Sans', sans-serif;
+$font-code: 'JetBrains Mono', monospace;
 // Utilisation : font-family: $title;
 
 // 🎨 Palette des couleurs :
-// TODO Insérer les variables "colors"
-$black: #000000;
-$anthracite: #222222;
-$grey: #888888;
+$black: #0d0d0d;
+$anthracite: #2d2d2d;
+$grey: #7f8c8d;
 $white: #ffffff;
-$primary: #00bcd4;
-$secondary: #ff9800;
-$accent: #3f51b5;
+$primary: #39ff14;
 // Utilisation : color: $primary;
 
 // 📏 Définition des espacements
@@ -30,7 +26,9 @@ $spacings: (
   // 24px
   xl: 2rem,
   // 32px
-  xxl: 3rem // 48px,,,,,,,,
+  xxl: 3rem,
+  // 48px
+  xxxl: 5rem //80px
 );
 // Utilisation : padding: map-get($spacings, l) map-get($spacings, m);
 
@@ -49,9 +47,9 @@ $transition-slow: 0.6s;
 // Utilisation : transition: all $transition-fast;
 
 // 🌫️ Ombres (box-shadow)
-$shadow-light: 0 1px 3px rgba(0, 0, 0, 0.07);
-$shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.12);
-$shadow-strong: 0 8px 32px rgba(0, 0, 0, 0.18);
+$shadow-light: 0 1px 3px rgba(255, 255, 255, 0.07);
+$shadow-medium: 0 4px 16px rgba(255, 255, 255, 0.12);
+$shadow-strong: 0 8px 32px rgba(255, 255, 255, 0.18);
 // Utilisation : box-shadow: $shadow-light;
 
 // 🔡 Tailles de police
@@ -67,7 +65,7 @@ $font-size-xxl: 3rem; // 48px
 $breakpoints: (
   mobile: 480px,
   tablet: 770px,
-  desktop: 1024px,
+  desktop: 1024px
 );
 // Utilisation (avec mixin respond) : @include respond(tablet) { ... }
 

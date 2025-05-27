@@ -1,0 +1,47 @@
+.cards-container {
+  display: flex;
+  margin: 0 auto;
+  gap: map-get($spacings, xl);
+  padding: map-get($spacings, xl);
+  scroll-snap-type: x mandatory;
+  scroll-padding: map-get($spacings, m);
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: $radius-s;
+  }
+}
+
+.card {
+  text-align: left;
+  scroll-snap-align: start;
+  overflow: hidden;
+  flex: 0 0 auto;
+  width: 300px;
+  @media screen and (max-width: 360px) {
+    width: 250px;
+  }
+  position: relative;
+  border-radius: $radius-s;
+  border: 2px solid $primary;
+  box-shadow: $shadow-light;
+  padding: map-get($spacings, m);
+  cursor: pointer;
+  .img {
+    margin: map-get($spacings, s) auto;
+  }
+  .code-text {
+    padding: map-get($spacings, s) 0;
+  }
+  .description {
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; /* Orientation vertical de la boite */
+    overflow: hidden;
+    margin-bottom: map-get($spacings, m);
+  }
+}
