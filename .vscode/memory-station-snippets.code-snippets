@@ -1,0 +1,108 @@
+{
+  "Header Article": {
+    "prefix": "ms-header",
+    "body": [
+    	"<header class=\"article-header\">",
+		"  <h1 class=\"title\">Un titre un peu plus long</h1>",
+		"  <div class=\"meta\">",
+		"    <time datetime=\"2025-05-28\">28 mai 2025</time>",
+		"    <ul class=\"tags\" aria-label=\"Tags de l’article\">",
+		"       <li class=\"tag\">#Tag1</li>",
+		"       <li class=\"tag\">#Tag2</li>",
+		"       <li class=\"tag\">#Tag3</li>",
+		"    </ul>",
+		"  </div>",
+		"  <div class=\"img-placeholder\" role=\"img\" aria-label=\"Image illustrant l'article\"></div>",
+		"</header>"
+    ],
+    "description": "Header d’article avec titre, date et tags"
+  },
+
+"Partie Article": {
+    "prefix": "ms-part",
+    "body": [
+    	"<section class=\"article-part\">",
+		"    <h2>Titre de la partie</h2>",
+		"    <div class=\"img-layout\">",
+		"        <div class=\"img-placeholder\" role=\"img\" aria-label=\"Image illustrant l'article\"></div>",
+		"        <p>Lorem ipsum odor amet, consectetuer adipiscin elit.Fringilla vivamus mus rutrum urna. Eu sagittis dictum felis suscipit vitae. Metus nisl mus venenatis id. Diam finibus dui laoreet curae curae. Tortor rhoncus aliquam mus mi convallis laoreet imperdiet dictum. Dui feugiat sodales est est maecenas.</p>",
+		"    </div>",
+		"    <p>Tortor ex est egestas amet luctus. Potenti tempor eleifend facilisis condimentum et. Molestie aptent tellus tincidunt aliquam a felis rutrum. Scelerisque nibh molestie fermentum efficitur nisl ante. Mattis phasellus aptent malesuada quisque faucibus lacus. Donec gravida rhoncus quam hac. Habitant efficitur parturient id, vivamus dis fames.</p>",
+		"    <h3>Titre de la sous partie</h3>",
+		"    <p>Cubilia tristique elit lacus commodo est nisl. Nec elit tortor id eu id ut maecenas. Nec sollicitudin primis posuere luctus. Gravida torquent sapien leo facilisi nulla. Suscipit vehicula taciti facilisi massa, auctor accumsan duis. Donec et eros volutpat erat tellus. Vestibulum ligula ornare suscipit facilisi blandit himenaeos. Lacinia senectus praesent metus amet consequat.</p>",
+		"</section>"
+    ],
+    "description": "Partie de l'article avec h2, h3, image et texte"
+  },
+
+  "Blockquote Highlight": {
+    "prefix": "ms-blockquote",
+    "body": [
+      "<blockquote class=\"highlight\">",
+      "  \"$1Texte de citation mise en avant\"",
+      "</blockquote>"
+    ],
+    "description": "Bloc citation mise en avant stylé"
+  },
+
+  "Image Placeholder": {
+    "prefix": "ms-imgplaceholder",
+    "body": [
+      "<div class=\"img-placeholder\">Image ici</div>"
+    ],
+    "description": "Bloc image fictive avec texte"
+  },
+
+  "Bouton CTA": {
+    "prefix": "ms-cta",
+    "body": [
+      "<a href=\"#\" class=\"cta\" aria-label=\"décrire l'objectif du bouton\">Action</a>",
+    ],
+    "description": "Bouton appel à l’action"
+  },
+
+  "Footer Article": {
+    "prefix": "ms-footer-article",
+    "body": [
+        "  <footer class=\"footer-article\">",
+		"    <section class=\"footer-cta\">",
+		"      <a href=\"#\" class=\"cta\" aria-label=\"décrire l'objectif du bouton\">Partager</a>",
+		"      <a href=\"#\" class=\"cta\" aria-label=\"décrire l'objectif du bouton\">Lire Plus</a>",
+		"      <a href=\"#\" class=\"cta\" aria-label=\"décrire l'objectif du bouton\">Retour Accueil</a>",
+		"    </section>",
+		"    <section class=\"articles\">",
+		"      <h2>Articles liés</h2>",
+		"      <div class=\"articles-linked\">",
+		"        <a href=\"#\" class=\"link-articles\">Un autre article à lire</a>",
+		"        <a href=\"#\" class=\"link-articles\">Un autre article à lire</a>",
+		"        <a href=\"#\" class=\"link-articles\">Un autre article à lire</a>",
+		"      </div>",
+		"    </section>",
+		"    <div class=\"categories\">",
+		"      <h2>Catégories :</h2>",
+		"      <ul class=\"category\">",
+		"        <li>Projet,</li>",
+		"        <li>Technique,</li>",
+		"        <li>Récits</li>",
+		"      </ul>",
+		"    </div>",
+		"    <div class=\"footer-content\">",
+		"      <!-- Infos de contact -->",
+		"      <div class=\"contact-info\">",
+		"        <p>",
+		"          Contact:",
+		"          <a href=\"mailto:votre-email@exemple.com\" aria-label=\"Envoyer un email à Jennifer Hauck\">jenniferhauck2017@gmail.com</a>",
+		"        </p>",
+		"      </div>",
+		"      <!-- Mentions légales et crédits -->",
+		"      <div class=\"copyright\">",
+		"        <p>&copy; <span id=\"current-year\">2025</span>Jhauck67 - Tous droits réservés</p>",
+		"        <p class=\"sandbox-credit\">Créé avec<span class=\"accent\">Sandbox-Station</span></p>",
+		"      </div>",
+		"    </div>",
+		"  </footer>"
+    ],
+    "description": "Footer d'article avec cta, liens vers d'autres articles et catégories"
+  }
+
+}

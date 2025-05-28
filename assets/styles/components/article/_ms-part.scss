@@ -1,0 +1,31 @@
+.article-part {
+  width: clamp(300px, calc(18.75rem + ((1vw - 3.2px) * 44.6429)), 800px);
+  min-height: 0vw;
+  margin: 0 auto;
+  padding: map-get($spacings, m);
+  h2 {
+    text-align: left;
+    padding-bottom: map-get($spacings, l);
+  }
+  .img-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include respond(mobile) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    gap: map-get($spacings, m);
+    align-items: center;
+    margin-bottom: map-get($spacings, m);
+  }
+  .img-placeholder {
+    background: url(../img/image-bouvier.webp) center/cover;
+    height: 100%;
+  }
+  p {
+    padding-bottom: map-get($spacings, m);
+  }
+  h3 {
+    padding-bottom: map-get($spacings, m);
+  }
+}

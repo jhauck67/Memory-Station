@@ -1,0 +1,13 @@
+.bullet-list {
+  width: clamp(300px, calc(18.75rem + ((1vw - 3.2px) * 44.6429)), 800px);
+  min-height: 0vw;
+  margin: 0 auto;
+  padding: map-get($spacings, m);
+  li {
+    list-style-type: disc;
+    line-height: 1.6;
+    &::marker {
+      color: $primary;
+    }
+  }
+}

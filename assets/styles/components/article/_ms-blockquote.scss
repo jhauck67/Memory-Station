@@ -1,0 +1,12 @@
+.highlight {
+  width: clamp(300px, calc(18.75rem + ((1vw - 3.2px) * 44.6429)), 800px);
+  min-height: 0vw;
+  margin: map-get($spacings, xs) auto;
+  padding: map-get($spacings, m) map-get($spacings, l);
+  background: $anthracite;
+  color: $grey;
+  font-style: italic;
+  line-height: 1.6;
+  border-radius: $radius-s;
+  border-left: 5px solid $primary;
+}

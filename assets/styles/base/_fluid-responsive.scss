@@ -12,7 +12,9 @@ h2 {
   min-height: 0vw;
 }
 
-h3 {
+h3,
+time,
+.tag {
   font-size: clamp(0.95rem, calc(0.95rem + ((1vw - 0.2rem) * 0.3571)), 1.2rem);
   min-height: 0vw;
 }
@@ -25,7 +27,9 @@ h3 {
 
 // Le paragraphe passe de 1rem à 0.75rem entre 1440 et 320px
 p,
-a {
+a,
+.bullet-list li,
+.highlight {
   font-size: clamp(0.75rem, calc(0.75rem + ((1vw - 0.2rem) * 0.3571)), 1rem);
   min-height: 0vw;
 }
