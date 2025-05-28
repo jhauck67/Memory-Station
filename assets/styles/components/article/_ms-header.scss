@@ -29,6 +29,7 @@
   }
   .tags {
     @extend %centerY;
+    flex-wrap: wrap;
     gap: map-get($spacings, m);
     .tag {
       border: 1px solid $anthracite;
@@ -45,6 +46,5 @@
   width: clamp(300px, calc(18.75rem + ((1vw - 3.2px) * 44.6429)), 800px);
   min-height: 0vw;
   margin: map-get($spacings, m) auto;
-  background: url(../img/img-article-header.webp) center/cover;
   aspect-ratio: 16 / 9;
 }

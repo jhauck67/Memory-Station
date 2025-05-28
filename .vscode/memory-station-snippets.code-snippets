@@ -12,7 +12,7 @@
 		"       <li class=\"tag\">#Tag3</li>",
 		"    </ul>",
 		"  </div>",
-		"  <div class=\"img-placeholder\" role=\"img\" aria-label=\"Image illustrant l'article\"></div>",
+		"  <img src=\"../assets/img/raspberry-pi-et-calculatrice.webp\" class=\"img-placeholder\" alt=\"raspberry pi et calculatrice scientifique sur un bureau\" width=\"800\" height=\"450\"/>",
 		"</header>"
     ],
     "description": "Header d’article avec titre, date et tags"
@@ -24,7 +24,7 @@
     	"<section class=\"article-part\">",
 		"    <h2>Titre de la partie</h2>",
 		"    <div class=\"img-layout\">",
-		"        <div class=\"img-placeholder\" role=\"img\" aria-label=\"Image illustrant l'article\"></div>",
+		"        <img src=\"../assets/img/raspberry-pi-et-calculatrice.webp\" class=\"img-placeholder\" alt=\"raspberry pi et calculatrice scientifique sur un bureau\" width=\"400\" height=\"400\"/>",
 		"        <p>Lorem ipsum odor amet, consectetuer adipiscin elit.Fringilla vivamus mus rutrum urna. Eu sagittis dictum felis suscipit vitae. Metus nisl mus venenatis id. Diam finibus dui laoreet curae curae. Tortor rhoncus aliquam mus mi convallis laoreet imperdiet dictum. Dui feugiat sodales est est maecenas.</p>",
 		"    </div>",
 		"    <p>Tortor ex est egestas amet luctus. Potenti tempor eleifend facilisis condimentum et. Molestie aptent tellus tincidunt aliquam a felis rutrum. Scelerisque nibh molestie fermentum efficitur nisl ante. Mattis phasellus aptent malesuada quisque faucibus lacus. Donec gravida rhoncus quam hac. Habitant efficitur parturient id, vivamus dis fames.</p>",
@@ -48,7 +48,7 @@
   "Image Placeholder": {
     "prefix": "ms-imgplaceholder",
     "body": [
-      "<div class=\"img-placeholder\">Image ici</div>"
+      "<img src=\"../assets/img/vscode-github.webp\" alt=\"vue d'écran sur vs code et github\" class=\"img-placeholder\" width=\"800\" height=\"450\"/>"
     ],
     "description": "Bloc image fictive avec texte"
   },

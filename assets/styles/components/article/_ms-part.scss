@@ -19,8 +19,8 @@
     margin-bottom: map-get($spacings, m);
   }
   .img-placeholder {
-    background: url(../img/image-bouvier.webp) center/cover;
     height: 100%;
+    aspect-ratio: 1 / 1;
   }
   p {
     padding-bottom: map-get($spacings, m);

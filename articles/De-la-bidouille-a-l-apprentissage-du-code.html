@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- ====== 🧠 [HEAD] : Titre, Meta Datas et Styles ====== -->
+  <head>
+    <!-- Charset et responsive -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d0d0d" />
+
+    <!-- ====== 🔖 [META TAGS PAGE] ====== -->
+    <!-- Titre -->
+    <title>De la bidouille à l'apprentissage du code</title>
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Du premier fichier HTML aux bases solides du développement web, découvrez comment une passion pour la bidouille s’est transformée en un vrai parcours d’apprentissage du code, étape par étape."
+    />
+    <!-- favicon.ico -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/favicons/favicon.ico" />
+    <!-- favicon.svg -->
+    <link rel="icon" type="image/svg+xml" href="../assets/img/icons/favicons/favicon.svg" />
+    <!-- favicon.png -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/img/icons/favicons/favicon32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/img/icons/favicons/favicon16x16.png"
+    />
+    <!-- Apple-touch-icon.png -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/img/icons/favicons/apple-touch-icon.png"
+    />
+    <!-- Auteur -->
+    <meta name="author" content="Jhauck67" />
+
+    <!-- ====== 🔖 [OPENGRAPH META TAGS] ====== -->
+    <!-- TODO Vérifier que l'adresse est ok -->
+    <meta
+      property="og:url"
+      content="https://jhauck67.github.io/Memory-Station/articles/De-la-bidouille-a-l-apprentissage-du-code.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="De la bidouille à l'apprentissage du code" />
+    <meta
+      property="og:description"
+      content="Du premier fichier HTML aux bases solides du développement web, découvrez comment une passion pour la bidouille s’est transformée en un vrai parcours d’apprentissage du code, étape par étape."
+    />
+    <!-- TODO Créer un Opengraph.png -->
+    <meta
+      property="og:image"
+      content="https://jhauck67.github.io/Memory-Station/assets/sketch/opengraph.png"
+    />
+
+    <!-- ====== 🎨 [FEUILLE DE STYLE CSS] ====== -->
+    <!-- Précharger la feuille de style css -->
+    <link rel="preload" href="../assets/styles/index.css" as="style" />
+    <!-- Lien vers la feuille de style css -->
+    <link rel="stylesheet" href="../assets/styles/index.css" />
+
+    <!-- ====== 🖼️ [PRELOAD DES IMAGES] ====== -->
+    <!-- permet de précharger les images importantes -->
+    <link
+      rel="preload"
+      href="../assets/img/raspberry-pi-et-calculatrice.webp"
+      as="image"
+      type="image/webp"
+    />
+  </head>
+
+  <!-- ===== 📄 [BODY] : Début du site ====== -->
+  <body>
+    <article>
+      <header class="article-header">
+        <h1 class="title">De la bidouille à l'apprentissage du code</h1>
+        <div class="meta">
+          <time datetime="2025-05-28">28 mai 2025</time>
+          <ul class="tags" aria-label="Tags de l’article">
+            <li class="tag">#Apprentissage</li>
+            <li class="tag">#DéveloppementWeb</li>
+            <li class="tag">#HTML</li>
+          </ul>
+        </div>
+        <img
+          src="../assets/img/raspberry-pi-et-calculatrice.webp"
+          class="img-placeholder"
+          alt="raspberry pi et calculatrice scientifique sur un bureau"
+          width="800"
+          height="450"
+        />
+      </header>
+      <section class="article-part">
+        <p>
+          Depuis toujours, j’ai un attrait pour les systèmes techniques, les trucs qu’on démonte
+          pour comprendre comment ça marche. Je me suis souvent amusée à bidouiller, sans forcément
+          me dire que je “faisais du code”. Au collège et au lycée, c’était la calculatrice
+          graphique qui faisait office de terrain de jeu : je tapais du BASIC pour créer des petits
+          jeux ou automatiser des calculs — pas très lisible, pas très structuré, mais ça marchait.
+          Et surtout, c’était grisant de faire obéir une machine à quelques lignes de texte.
+        </p>
+        <p>
+          Plus tard, j’ai découvert le Raspberry Pi. Ce mini-ordinateur, aussi compact que puissant,
+          m’a permis de tester plein de choses : media center, console de rétrogaming, environnement
+          Linux minimaliste… J’aimais configurer, ajuster, tester, sans vraiment écrire du code au
+          sens strict. J’étais dans une posture de “bricoleuse numérique” : je suivais des tutos, je
+          montais des systèmes fonctionnels, mais je voulais plus.
+        </p>
+        <p>
+          À un moment, j’ai eu envie de franchir un cap : comprendre ce que je faisais, pas juste
+          reproduire. Apprendre à coder “pour de vrai”, pas juste assembler des blocs ou suivre des
+          recettes. Reste une question : par où commencer ?
+        </p>
+        <p>
+          Après quelques recherches, une réponse simple revenait en boucle : le HTML. Langage de
+          base, facile à apprendre, utile tout de suite. Ce serait ma première étape vers un
+          apprentissage plus structuré.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Pourquoi le HTML ?</h2>
+        <div class="img-layout">
+          <img
+            src="../assets/img/hello-world-html.webp"
+            alt="vue d'un code html avec un h1 Hello World ! et l'apperçu sur le navigateur"
+            class="img-placeholder"
+            width="400"
+            height="400"
+          />
+          <p>
+            Quand on commence à s’intéresser sérieusement au code, on se retrouve vite face à une
+            jungle de langages, de frameworks, de technologies. JavaScript, Python, React, SQL, PHP…
+            On peut facilement se perdre, ou vouloir tout apprendre en même temps. Mais moi, je
+            voulais commencer simplement, par quelque chose de visible, logique, accessible. Et
+            c’est exactement ce que propose le HTML.
+          </p>
+        </div>
+        <p>
+          Le HTML (HyperText Markup Language), ce n’est pas un langage de programmation à proprement
+          parler — c’est un langage de balisage, qui sert à structurer l’information sur une page
+          web. Pas de variables, pas de logique, juste une façon claire de dire : voici un titre,
+          voici un paragraphe, voici une image.
+        </p>
+        <p>
+          C’est un langage visuel, dans le sens où on peut écrire quelques lignes et en voir
+          directement le résultat dans le navigateur. C’est aussi un langage tolérant : pas besoin
+          de tout comprendre pour faire fonctionner un petit projet. Et ça, quand on débute, c’est
+          très motivant.
+        </p>
+        <p>
+          HTML, c’est un peu comme les briques Lego du web : tu peux commencer par assembler des
+          trucs simples, puis découvrir qu’avec les mêmes pièces tu peux faire des choses bien plus
+          complexes.
+        </p>
+        <p>
+          Alors j’ai décidé de commencer là. Un éditeur de texte, un navigateur, et c’était parti.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>S'installer un petit poste de travail de dev</h2>
+        <p>
+          Avant même de taper ma première ligne de code, j’ai voulu poser quelques bases. Pas
+          forcément monter une usine à gaz, mais avoir un petit environnement de travail propre,
+          comme un espace de bricolage numérique où je pourrais m’y retrouver.
+        </p>
+        <h3>Choix de l'éditeur : VS Code, évidemment</h3>
+        <p>
+          J’ai rapidement opté pour Visual Studio Code, parce que tout le monde en parlait — et à
+          raison. Léger, gratuit, puissant, plein d’extensions pratiques. Dès l’installation, j’ai
+          pu personnaliser l’interface, ajouter des extensions pour le HTML, activer
+          l’autocomplétion, la coloration syntaxique… De quoi me sentir “outillée”, même si je ne
+          comprenais pas encore tout.
+        </p>
+        <img
+          src="../assets/img/vscode-github.webp"
+          alt="vue d'écran sur vs code et github"
+          class="img-placeholder"
+          width="800"
+          height="450"
+        />
+        <h3>Mise en place d'un GitHub</h3>
+        <p>
+          Ensuite, j’ai créé un compte GitHub. Pas tant pour versionner mon code dès le départ, mais
+          pour prendre l’habitude de garder une trace, d’organiser mes fichiers, de penser mes
+          projets comme quelque chose d’évolutif. Même si je n’ai pas tout utilisé tout de suite,
+          c’était une façon de me mettre dans le bain du “développement”.
+        </p>
+        <h3>Notes, suivi et structure</h3>
+        <p>
+          Comme j’aime comprendre ce que je fais, j’ai aussi ouvert Obsidian pour me construire un
+          carnet de bord de mon apprentissage. Je prends des notes, je garde des captures d’écran,
+          je trace ce que j’apprends et comment. Parce que suivre un tuto, c’est bien. Mais
+          comprendre et pouvoir y revenir plus tard, c’est mieux.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Premiers pas en HTML : une prise en main simple et gratifiante</h2>
+        <p>
+          Quand j’ai enfin lancé mon premier fichier HTML, je ne savais pas trop à quoi m’attendre.
+          Est-ce que ça allait être verbeux ? Technique ? Rébarbatif ? Et en fait… pas du tout.
+          C’était intuitif, logique, immédiat. Je tape :
+        </p>
+        <!-- TODO Styliser le code -->
+        <pre><code class="code-snippet">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ma première page</title>
+	</head>
+	<body>
+		<h1>Hello world !</h1>
+		<p>Premier test HTML réussi.</p>
+	</body>
+</html>
+</code></pre>
+        <p>Je l’ouvre dans le navigateur, et ça s’affiche. Juste ça : ça marche !!!</p>
+        <p>
+          Le HTML m’a offert ce petit frisson du code qui fonctionne du premier coup. Pas d’erreurs,
+          pas de compilation, juste une page qui s’affiche. Et cette simplicité, quand on débute,
+          c’est vraiment motivant.
+        </p>
+        <span>J’ai rapidement compris la logique des balises :</span>
+        <ul class="bullet-list">
+          <li>&lt;h1&gt; pour les titres</li>
+          <li>&lt;p&gt; pour les paragraphes</li>
+          <li>&lt;img&gt; pour les images</li>
+          <li>&lt;a&gt; pour les liens</li>
+        </ul>
+        <div class="img-layout">
+          <img
+            src="../assets/img/balises-html-flottantes.webp"
+            alt="un garcon souriant devant son ordinateur avec des balises html flottantes"
+            class="img-placeholder"
+            width="400"
+            height="400"
+          />
+          <p>
+            Et même si on ne comprend pas encore les subtilités, on sent que tout est construit
+            autour d’une idée simple : donner du sens au contenu. Chaque élément a son rôle. Et même
+            si au début je ne comprenais pas la différence entre &lt;b&gt; et &lt;strong&gt; ou
+            entre &lt;i&gt; et &lt;em&gt;, j’étais déjà capable de créer une page complète.
+          </p>
+        </div>
+        <p>
+          Et surtout, je voyais tout de suite le résultat de mes actions. C’est ça qui rend le HTML
+          aussi agréable à apprendre : c’est du code qui parle visuellement.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Mon premier mini projet HTML : créer quelque chose de concret</h2>
+        <p>
+          Une fois les bases comprises, j’ai eu envie d’aller un peu plus loin qu’un simple “Hello
+          world”. Rien de trop ambitieux, juste une petite page de présentation : quelques titres,
+          un paragraphe, une photo, deux liens. L’objectif : m’approprier le langage, comprendre la
+          structure, m’organiser.
+        </p>
+        <h3>Une structure en blocs</h3>
+        <p>
+          Je commence à distinguer la hiérarchie dans le code. J’utilise des balises
+          &lt;section&gt;, &lt;article&gt;, &lt;header&gt;, &lt;footer&gt;… même sans style CSS, le
+          HTML crée une colonne vertébrale.
+        </p>
+        <p>
+          Et c’est à ce moment-là que je me suis vraiment dit : le HTML, ce n’est pas juste pour
+          afficher du texte — c’est pour donner du sens au contenu.
+        </p>
+        <h3>Des interrogations "rigolotes"</h3>
+        <div class="img-layout">
+          <img
+            src="../assets/img/a-woman-smiling-but-slightly-confused.webp"
+            alt="une femme qui sourit et qui se pose des questions"
+            class="img-placeholder"
+            width="400"
+            height="400"
+          />
+          <p>
+            Je me suis aussi posée des questions que tout le monde se pose au début : • “Pourquoi ça
+            saute une ligne ?” • “Pourquoi l’image ne s’affiche pas ?” • “Mais je viens de
+            l’enregistrer, pourquoi ça ne change pas dans le navigateur ?”
+          </p>
+        </div>
+        <p>
+          Autant de petits blocages qui m’ont permis de prendre de bonnes habitudes : bien nommer
+          mes fichiers, bien rafraîchir la page, vérifier mes chemins relatifs…
+        </p>
+        <h3>Le plaisir de créer, même sans style</h3>
+        <p>
+          Même si la page n’avait pas encore de design, je voyais ma propre création apparaître à
+          l’écran. Et ça, c’est hyper satisfaisant. J’ai vite compris que le HTML ne faisait pas
+          tout, qu’il allait falloir passer au CSS pour rendre ça plus joli… Mais ce premier projet
+          m’a vraiment donné envie d’aller plus loin.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Un petit goût de nostalgie</h2>
+        <p>
+          En construisant mes premières pages, j’ai eu une sensation inattendue… un vrai petit
+          retour vers le passé. Ces pages sans style, avec juste du texte brut et des liens bleus
+          soulignés, m’ont ramenée à mes tout premiers souvenirs d’Internet. Les débuts du web, les
+          sites persos hébergés sur des pages Free, les forums sans design, les navigateurs de
+          l’époque…
+        </p>
+        <img
+          src="../assets/img/youtube-2005-02.png"
+          alt="vue d'écran de youtube en 2005"
+          class="img-placeholder"
+          width="800"
+          height="450"
+        />
+        <p>
+          Il y avait quelque chose d’authentique dans ces pages. Un web artisanal, où chaque lien
+          était écrit à la main, chaque couleur choisie sans framework ni template. Et quelque part,
+          coder en HTML aujourd’hui m’a donné le sentiment de rejoindre cette histoire, de
+          comprendre d’où vient le web.
+        </p>
+        <p>
+          Je ne suis pas nostalgique du web de 1999 pour son design (soyons honnête), mais pour
+          l’esprit de découverte et de liberté qui l’accompagnait. Aujourd’hui encore, écrire mes
+          propres pages me donne ce sentiment : je construis quelque chose avec mes mains, même si
+          c’est du code.
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Les ressources qui m'ont aidée à apprendre</h2>
+        <p>
+          Pour découvrir le HTML, je me suis naturellement tournée vers des ressources en ligne. Je
+          voulais du concret, du visuel, et surtout, des gens qui expliquent bien. Et heureusement,
+          Internet regorge de contenus pour apprendre à coder — parfois trop, même. Alors j’ai
+          commencé à fouiller, à tester différents formats jusqu’à trouver ce qui me convenait.
+        </p>
+        <h3>YouTube : mes premières lignes en vidéo</h3>
+        <p>
+          Au départ, j’ai regardé un peu tout ce qui passait sur YouTube. Des tutos courts, des
+          playlists entières, parfois très bons, parfois moins clairs. Puis je suis tombée sur
+          <a href="https://fromscratch.podia.com/">Julien de FromScratch</a>
+          , et là, j’ai accroché.
+        </p>
+        <p>
+          Sa pédagogie, sa façon d’expliquer les concepts en profondeur, son côté méthodique :
+          c’était exactement ce qu’il me fallait. Tellement que j’ai fini par acheter sa formation
+          Mastering Front-End, pour aller plus loin à mon rythme et avec un vrai fil conducteur.
+        </p>
+        <h3>Toujours curieuse</h3>
+        <div class="img-layout">
+          <img
+            src="../assets/img/learning-map.webp"
+            class="img-placeholder"
+            alt="une map type RPG qui représente le parcours d'apprentissage du code"
+            width="400"
+            height="400"
+          />
+          <p>
+            Ça ne m’a pas empêchée de continuer à picorer à droite à gauche : d’autres vidéos, des
+            articles de blogs, des petites astuces trouvées sur des forums… J’aime bien croiser les
+            sources, tester différentes approches. Comprendre ce que je fais, pas juste reproduire.
+          </p>
+        </div>
+        <h3>MDN Web Docs : ma Bible</h3>
+        <p>
+          Dès que j’ai voulu creuser un peu plus, j’ai découvert MDN Web Docs. Une ressource
+          incontournable. C’est clair, structuré, complet. Je m’y perds parfois dans la technique,
+          mais c’est devenu mon réflexe de vérification, comme si c’était la “notice officielle” du
+          web.
+        </p>
+        <p>
+          Bonus : c’est en grande partie en anglais, donc j’ai aussi l’impression d’améliorer mon
+          niveau de langue en même temps — double effet kiss cool !
+        </p>
+      </section>
+      <section class="article-part">
+        <h2>Et maintenant</h2>
+        <p>
+          Aujourd’hui, j’ai les bases du HTML. Je suis capable de créer une page structurée,
+          d’organiser mon contenu, de comprendre la logique des balises, et surtout de ne plus avoir
+          peur d’éditer un fichier .html. Mais je sais aussi que ce n’est que le début. Prochaine
+          étape : styliser tout ça !
+        </p>
+        <p>
+          Très vite, j’ai ressenti le besoin d’aller plus loin que le texte brut. Oui, une page HTML
+          sans style, c’est fonctionnel… mais on a tous envie que ce soit un peu plus joli. Alors la
+          suite logique de mon apprentissage, c’est le CSS : comprendre comment donner du style à
+          mes pages, comment organiser visuellement l’information, comment rendre tout ça
+          responsive.
+        </p>
+        <h3>Un parcours en étapes</h3>
+        <img
+          src="../assets/img/une-marche-en-pierre.webp"
+          alt="un escalier en pierre dont la première marche est tagué HTML"
+          class="img-placeholder"
+          width="800"
+          height="450"
+        />
+        <p>
+          J’ai décidé de construire mon apprentissage comme un cheminement progressif. D’abord le
+          HTML, maintenant le CSS, ensuite viendront sûrement le JavaScript, les frameworks,
+          l’accessibilité, la performance, etc. Mais sans brûler les étapes.
+        </p>
+        <p>
+          Ce que je veux, c’est comprendre ce que je fais à chaque niveau. Ne pas juste empiler des
+          briques, mais apprendre à les poser correctement.
+        </p>
+        <h3>Apprendre à coder, pour de vrai</h3>
+        <p>
+          Et même si ça peut paraître simple, le HTML m’a permis de poser un pied solide dans le
+          monde du développement.
+        </p>
+        <p>
+          Parce qu’avant de faire des sites complexes, il faut savoir comment les structurer. Avant
+          de jouer avec des animations, il faut comprendre ce qu’on anime. Et avant de vouloir tout
+          automatiser, il faut avoir mis les mains dans le code, ligne par ligne.
+        </p>
+        <p>
+          Je suis encore au début de ce voyage, mais je sais que j’ai pris la bonne première marche.
+          Et cette satisfaction là, elle vaut tous les effets de style.
+        </p>
+      </section>
+      <section class="article-part">
+        <p>
+          Apprendre le HTML, c’était poser la première brique d’un projet plus large : comprendre le
+          web, apprendre à coder, construire des choses par moi-même. Ce n’est peut-être “que” du
+          HTML, mais pour moi, c’est le point de départ d’une aventure technique, créative et
+          personnelle.
+        </p>
+        <p>
+          La suite ? Ajouter du style, de l’interaction, explorer de nouveaux outils… et surtout,
+          continuer à apprendre, à tester, à créer. Je partagerai ici mes prochaines étapes, mes
+          découvertes, mes galères parfois — et j’espère que ça parlera à d’autres personnes qui se
+          lancent comme moi.
+        </p>
+        <p>À suivre…</p>
+      </section>
+      <footer class="footer-article">
+        <section class="footer-cta">
+          <a href="#" class="cta" aria-label="décrire l'objectif du bouton">Partager</a>
+          <a href="#" class="cta" aria-label="décrire l'objectif du bouton">Lire Plus</a>
+          <a href="#" class="cta" aria-label="décrire l'objectif du bouton">Retour Accueil</a>
+        </section>
+        <section class="articles">
+          <h2>Articles liés</h2>
+          <div class="articles-linked">
+            <a href="#" class="link-articles">Un autre article à lire</a>
+            <a href="#" class="link-articles">Un autre article à lire</a>
+            <a href="#" class="link-articles">Un autre article à lire</a>
+          </div>
+        </section>
+        <div class="categories">
+          <h2>Catégories :</h2>
+          <ul class="category">
+            <li>HMTL</li>
+            <li>Apprentissage</li>
+            <li>Récit</li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <!-- Infos de contact -->
+          <div class="contact-info">
+            <p>
+              Contact:
+              <a
+                href="mailto:votre-email@exemple.com"
+                aria-label="Envoyer un email à Jennifer Hauck"
+              >
+                jenniferhauck2017@gmail.com
+              </a>
+            </p>
+          </div>
+          <!-- Mentions légales et crédits -->
+          <div class="copyright">
+            <p>
+              &copy;
+              <span id="current-year">2025</span>
+              Jhauck67 - Tous droits réservés
+            </p>
+            <p class="sandbox-credit">
+              Créé avec
+              <span class="accent">Sandbox-Station</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </body>
+</html>
